@@ -51,3 +51,17 @@ To use your fonts in app just init FontwesomeLoader..
 ```
 with your fonts mapping!
 
+Usage
+-----
+Configurations ended! Now open your storyboard or simple xibs and use our 
+
+- FontwesomeButton as UIButton
+- FontwesomeLabel as UILabel
+- FontwesomeTextField as UITextField
+
+...and set User Runtimes
+
+
+![Screenshot](https://raw.githubusercontent.com/Florismart/Xamarin.Fontwesome/master/runtime_attrbutes.png)
+
+
