@@ -1,13 +1,12 @@
 ﻿using System;
-using UIKit;
 using Foundation;
-using System.Collections.Generic;
+using UIKit;
 using Florismart.Fontwesome.iOS.Core;
 
 namespace Florismart.Fontwesome.iOS.View
 {
-	[Register ("FontwesomeButton")]
-	public partial class FontwesomeButton: UIButton
+	[Register ("FontwesomeTextView")]
+	public class FontwesomeTextView: UITextView
 	{
 		[Export ("fontwesome")]
 		private string _fontwesome { get; set; }
@@ -24,7 +23,7 @@ namespace Florismart.Fontwesome.iOS.View
 			}
 		}
 
-		public FontwesomeButton (IntPtr handle) : base (handle)
+		public FontwesomeTextView (IntPtr handle) : base (handle)
 		{
 		}
 

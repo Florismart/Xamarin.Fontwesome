@@ -1,6 +1,6 @@
 ﻿using System;
-using MonoTouch.UIKit;
-using MonoTouch.Foundation;
+using UIKit;
+using Foundation;
 using System.Collections.Generic;
 using Florismart.Fontwesome.iOS.Core;
 
