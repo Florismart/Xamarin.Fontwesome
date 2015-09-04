@@ -42,7 +42,7 @@ namespace Florismart.Fontwesome.iOS.View
 
 		private void SetFont ()
 		{
-			Console.WriteLine (string.Format ("Setting font: {0} as: {1}", _fontwesome, FontwesomeLoader.GetInstance ().FontMap [_fontwesome]));
+//			Console.WriteLine (string.Format ("Setting font: {0} as: {1}", _fontwesome, FontwesomeLoader.GetInstance ().FontMap [_fontwesome]));
 			Font = UIFont.FromName (FontwesomeLoader.GetInstance ().FontMap [_fontwesome], Font.PointSize);
 		}
 	}
